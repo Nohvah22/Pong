@@ -53,22 +53,22 @@ pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "norm
 # Function
 def paddle_a_up():
     y = paddle_a.ycor()
-    y += 20
+    y += 45
     paddle_a.sety(y)
 
 def paddle_a_down():
     y = paddle_a.ycor()
-    y -= 20
+    y -= 45
     paddle_a.sety(y)
 
 def paddle_b_up():
     y = paddle_b.ycor()
-    y += 20
+    y += 45
     paddle_b.sety(y)
 
 def paddle_b_down():
     y = paddle_b.ycor()
-    y -= 20
+    y -= 45
     paddle_b.sety(y)
 
 # keyboard binding
